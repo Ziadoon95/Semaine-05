@@ -1,0 +1,44 @@
+body{
+    background-color: #2F3038;
+}
+/* header{
+    display: flex;
+} */
+header ul li{
+    display: inline-block;
+
+}
+.menu_header  {
+    margin-left: 10%;
+}
+header ul span  {
+    margin-left: 48%;
+}
+.menu_header  li a {
+    color :azure;
+    margin-left : 20%
+}
+.menu_header li a:hover{
+
+}
+#logo {
+    position: relative;
+    color : white;
+    float : left ;
+}
+#logo span{
+    
+}
+.section_right{
+    display: inline-block;
+}
+.rounds{
+    position: absolute;
+   
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: teal;
+    border-radius: 50%;
+    z-index: -999;
+}
