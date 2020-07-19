@@ -93,7 +93,10 @@ header ul span  {
     width: 18rem;
     height: 18rem;
 }
-
+section{
+  display: block;
+    height : 64vh;
+}
 button{
     position: absolute;
 width: 200px;
@@ -110,8 +113,16 @@ img{
 }
 footer {
     background: #281037;
+    display: block;
     height: 9vh;
 }
-#rightElements {
-    
+#rightSection {
+    display: inline-block;
+}
+#rightSection *{
+    display: block;
+}
+#leftSection {
+    display: inline-block;
+    width: 50%;
 }
