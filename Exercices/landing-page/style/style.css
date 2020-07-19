@@ -1,6 +1,6 @@
 .discoverImages{
-    display: inline-block;
-    width: 14%;
+    display: inline-block !important;;
+    width: 24%;
 }
 body{
     display: block ; 
@@ -120,15 +120,21 @@ footer {
     display: block;
     height: 9vh;
 }
-#rightSection {
+.rightSection {
     display: inline-block;
     width: 49%;
 
 }
-#rightSection *{
+.rightSection *{
     display: block;
 }
-#leftSection {
+.leftSection {
     display: inline-block;
     width: 50%;
+}
+#discoverLeftSection {
+    float:left;
+}
+#discoverLeftSection *{
+    margin : 2% 5%
 }
