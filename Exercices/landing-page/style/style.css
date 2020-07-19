@@ -1,5 +1,9 @@
 body{
+    display: block ; 
+    font-family: Questrial;
+ color : white;
     background-color: #2F3038;
+    height: 200px;
 }
 /* header{
     display: flex;
@@ -8,18 +12,33 @@ header ul li{
     display: inline-block;
 
 }
+ ul  li {
+    display: inline-block;
+ }
 .menu_header  {
     margin-left: 10%;
+        color :aqua;
+}
+.menu_header a:hover  {
+        color : white ;
+}
+.menu_header a:visited  {
+        color : white ;
+}
+section{
+    margin-top : 9%;
 }
 header ul span  {
     margin-left: 48%;
 }
 .menu_header  li a {
-    color :azure;
     margin-left : 20%
 }
 .menu_header li a:hover{
-
+    color:aqua;
+}
+.menu_header li a:checked{
+    color:aqua;
 }
 #logo {
     position: relative;
@@ -30,7 +49,10 @@ header ul span  {
     
 }
 .section_right{
-    display: inline-block;
+/*     display: inline-block;
+ */    position: absolute;
+    bottom: 28%;
+    left:45%;
 }
 .rounds{
     position: absolute;
@@ -38,7 +60,58 @@ header ul span  {
     display: inline-block;
     height: 200px;
     width: 200px;
-    background-color: teal;
+    background-color: #2C3849;
     border-radius: 50%;
     z-index: -999;
+}
+
+
+#roundFour{
+      background-color: #443243;
+    display: inline-block;
+    position: absolute;
+    bottom : 10%;
+    left: 80%;
+}
+#roundTwo{
+          background-color: #443243;
+    display: inline-block;
+    position: absolute;
+    bottom : 10%;
+    left: 80%;
+}
+#roundThird {
+    background-color: #443243;
+    display: inline-block;
+    position: absolute;
+    bottom : 10%;
+}
+#roundOne {
+    background-color: #443243;
+    bottom: 20%;
+    left: 10%;
+    width: 18rem;
+    height: 18rem;
+}
+
+button{
+    position: absolute;
+width: 200px;
+height: 50px;
+border : none;
+background: #BC3A80;
+mix-blend-mode: normal;
+border-radius: 20px;
+}
+img{
+    position: relative;
+    display: inline-block;
+    left: 15%;
+}
+footer {
+    background: #281037;
+    height: 9vh;
+}
+#rightElements {
+    
 }
